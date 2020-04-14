@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Employee's Information</title>
+		<link href="css/alvin.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="icon" href="image/AH.jpg">
+		<style>
+		/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+			.flip-card {
+			  background-color: transparent;
+			  width: 250px;
+			  height: 250px;
+
+			  font-family: 'Rubik', sans-serif;
+			  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+			}
+
+			/* This container is needed to position the front and back side */
+			.flip-card-inner {
+			  position: relative;
+			  width: 100%;
+			  height: 100%;
+			  text-align: center;
+			  transition: transform 0.8s;
+			  transform-style: preserve-3d;
+			}
+
+			/* Do an horizontal flip when you move the mouse over the flip box container */
+			.flip-card:hover .flip-card-inner {
+			  transform: rotateY(180deg);
+			}
+
+			/* Position the front and back side */
+			.flip-card-front, .flip-card-back {
+			  position: absolute;
+			  width: 100%;
+			  height: 100%;
+			  backface-visibility: hidden;
+			}
+
+			/* Style the front side (fallback if image is missing) */
+			.flip-card-front {
+			  background-color: lightblue;
+			  color: black;
+			}
+
+			/* Style the back side */
+			.flip-card-back {
+			  background-color:white;
+			  color: black;
+			  transform: rotateY(180deg);
+
+
+			}
+			.image1{
+			border: none;
+			align-content: center;
+			width:200px;
+			height:200px;
+			}
+			.tr{
+			margin-left:100px;
+			}
+
+
+			</style>
+	</head>
+		<body style="width:auto;">
+			<table width="100%" cellspacing="0">
+				<tr style="background-image: url('image/background 2.jpeg');">
+					<td width="25%">
+						<img class="topImage" src="https://scontent.fsin2-1.fna.fbcdn.net/v/t1.0-9/38707787_272052933524510_1358991226560315392_n.jpg?_nc_cat=106&_nc_oc=AQmqout0bTVTpwltp8PwS8dpESjKB6Jlii-t-9rAGdrzZdWpsXPvNURTpLe9h55k_Y9-BUQQxIe1Mls2YdClx1kN&_nc_ht=scontent.fsin2-1.fna&oh=4385a87d85b0e6471fd6b883774a0729&oe=5D7FCB92" alt="image"/>
+					</td>
+					<td width="75%">
+						<div class="font" style="color:white;">Alvin Heng Engineering and Building Services</div>
+					</td>
+				</tr>
+	  		</table>
+			<ul id="menu">
+				<div class="dropdown">
+					<button class="dropbtn">
+						<li>
+						  <a href="index.html" target="_blank">Home&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-home" aria-hidden="true"></i>
+						  </a>
+						</li>
+					</button>
+				</div>
+
+				<div class="dropdown">
+						<button class="dropbtn">
+							<li>
+							  <a href="collaborations.html" target="_blank">About Us</a>
+							</li>
+						</button>
+					<div class="dropdown-content">
+							<a href="awardsandachievement.html" target="_blank">Awards and Achievements</a>
+							<a href="collaborations.html" target="_blank">Corporate Accounts</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+						<button class="dropbtn">
+							<li>
+							  <a href="contact.html" target="_blank">Contact and Communication &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-address-book" aria-hidden="true"></i>
+							  </a>
+							</li>
+						</button>
+					<div class="dropdown-content">
+						<a href="bookingform.html" target="_blank">Booking Form</a>
+						<a href="feedbackform.html" target="_blank">Feedback Form</a>
+						<a href="contact.html" target="_blank">Contact</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+						<button class="dropbtn">
+							<li>
+							  <a href="employment.html" target="_blank">Staff Directory&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-users" aria-hidden="true"></i>
+							  </a>
+							</li>
+						</button>
+					<div class="dropdown-content">
+						<a href="career.html" target="_blank">Career Employment Form</a>
+						<a href="employment.html" target="_blank">Employee's Information</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+						<button class="dropbtn">
+							<li>
+							  <a href="serviceprovided.html" target="_blank">Project References&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-folder" aria-hidden="true"></i></a>
+							</li>
+						</button>
+					<div class="dropdown-content">
+						<a href="serviceprovided.html" target="_blank">Images/Videos On the Companies Operation</a>
+					</div>
+				</div>
+			</ul>
+
+		<table style="margin-bottom:5%;margin-left:2%;">
+			<hr style="color:grey;"><hr/>
+		<h2 align="center" class="h2">MEET MY TEAM</h2>
+		<hr color="grey"><hr/>
+			<tr>
+				<td><img width="250px" height="250px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/></td>
+
+				<td><img width="225px" height="250px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/></td>
+
+				<td>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+								<img width="250px" height="250px" src="image/9.jpg" alt="image"/>
+							</div>
+							<div class="flip-card-back">
+								<h3>Alvin Heng Mok Kiang </h3>
+								<p width="290px" height="300px" style="margin-bottom:10%;"> Director<br/>
+								Monitoring progress, providing financial control and ensuring project quality<br/>
+								Ensuring necessary permits to work and legal papers are secured prior to project commencement</p>
+							</div>
+					</div>
+				</div>
+			</td>
+				<td>
+					<img width="225px" height="250px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/>
+				</td>
+				<td>
+					<img width="225px" height="250px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/>
+				</td>
+			</tr>
+			</table>
+				<table style="margin-left:4%;">
+					<hr color="grey"><hr/>
+						<h2 align="center" class="h2">RM MEMBERS</h2>
+						<tr>
+							<hr color="grey"><hr/>
+							  <td><img width="250px" height="250px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/></td>
+				<td>
+				<td>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img width="250px" height="250px" src="image/10.jpg" alt="image"/>
+						</div>
+						<div class="flip-card-back">
+							<h3> Ms Evonne Yow Yi Cheng</h3>
+							<p>Chief Financial Officer</p>
+							<p> Leading project planning meeting,coordinating staff and internal resources</p>
+							<p>Ensuring that installation and operations conform to standards</p>
+
+						</div>
+					</div>
+				</div>
+				</td>
+				<td>
+					<img width="130px" height="200px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/>
+				</td>
+				<td>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<img width="250px" height="250px" src="image/11.jpg" alt="image"/>
+						</div>
+						<div class="flip-card-back">
+							<h3> Mr Loh Siew Huan</h3>
+							<p>Chief Operating Officer</p>
+							<p> specializing in construction primarily install wiring systems</p>
+							<p> specializing in maintenance fix and upgrade existing electrical systems and repair electrical equipment</p>
+						</div>
+					</div>
+				</div>
+				</td>
+				<td><img width="225px" height="250px" src="https://www.chroniclelive.co.uk/@trinitymirrordigital/marwood/TM/img/placeholders/transparent.png"/></td>
+			</tr>
+			</table>
+			<table style="margin-left:100px;" cellspacing="10px">
+				<hr color="grey"></hr>
+				<h2 align="center" class="h2">SUPPORT TEAM </h2>
+				<hr style="color:grey;"><hr/>
+				<tr>
+					<td  width="150" height="100"><img class="image1" src="image/13.jpg" alt="image"/>
+
+						<p style="font-weight:bold;font-family:verdana;text-align:center;">Mr Sim Kok Leon<br/></p>
+						<p style="font-weight:bold;font-family:verdana;text-align:center;color:lightcoral;">Supervisor<br/></p>
+				    </td>
+
+				<td  width="150" height="100"><img class="image1" src="image/14.jpg" alt="image"/>
+					<p style="font-weight:bold;font-family:verdana;text-align:center;">Mr Seng  Leon<br/></p>
+					<p style="font-weight:bold;font-family:verdana;text-align:center;color:lightcoral;">LEW <br/></p>
+
+				</td>
+
+				<td width="150" height="100"><img class="image1" src="image/15.jpg" alt="image"/>
+
+					<p style="font-weight:bold;font-family:verdana;text-align:center;"> Mrs Feng Si Ming<br/></p>
+					<p style="font-weight:bold;font-family:verdana;text-align:center;color:lightcoral;">Electrician NEW<br/></p>
+				</td>
+
+
+				<td  width="150" height="100"><img class="image1" src="image/6.jpg" alt="image"/>
+					<p style="font-weight:bold;font-family:verdana;text-align:center;">Mr Yoo Cheng<br/></p>
+					<p style="font-weight:bold;font-family:verdana;text-align:center;color:lightcoral;">Engineer<br/></p>
+				</td>
+				<td width="150" height="100"><img class="image1" src="image/12.jpg" alt="image"/>
+
+					<p style="font-weight:bold;font-family:verdana;text-align:center;"> Mr Eng Chun Hua<br/></p>
+					<p style="font-weight:bold;font-family:verdana;align-content:center;color:lightcoral;">Executive Manager<br/></p>
+				</td>
+
+			</tr>
+
+
+			</table>
+					<!--Page Wrapper-->
+		  <div class="page-wrapper">
+
+		  </div>
+		<!--//Page Wrapper-->
+		<!--footer-->
+			<div class="footer">
+				<div class="footer-content">
+
+					<div class="footer-section about">
+						<h2>Alvin Heng Engineering and Building Services</h2>
+							<div class="contact">
+								<span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +65 96587048</span>
+								<span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;alvinhengengineering@gmail.com</span>
+							</div>
+						<h2>Connect With Us:</h2>
+							<div class="s-m">
+								<a href="https://www.facebook.com/pages/category/Product-Service/Alvin-Heng-Engineering-271800410216429/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://web.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+							</div>
+					</div>
+							<div class="footer-section links">
+								<h2> Quick Links</h2>
+									<ul>
+										<a href="index.html" target="_blank">
+											<li>Home</li>
+										</a>
+										<a href="collaborations.html" target="_blank">
+											<li>About Us</li>
+										</a>
+										<a href="awardsandachievement.html" target="_blank">
+											<li>Awards and Achievements</li>
+										</a>
+										<a href="employment.html" target="_blank">
+											<li>Staff Directory</li>
+										</a>
+										<a href="findoutmore.html" target="_blank">
+											<li>Project References</li>
+										</a>
+									</ul>
+							</div>
+				</div>
+				<div class="footer-bottom">
+				&copy; Alvin Heng Engineering and Building Services
+				</div>
+			</div>
+
+		<!--//footer-->
+
+	</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+     <head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link href="css/feedbackform.css" rel="stylesheet"/>
+		<link href="css/alvinheng1.css" rel="stylesheet"/>
+		<link rel="icon" href="image/AH.jpg">
+
+           <title>Feedback Form</title>
+    </head>
+	<body>
+    <table width="100%" cellspacing="0">
+      <tr style="background-image: url('image/background 2.jpeg');">
+        <td width="25%">
+          <img class="topImage" src="https://scontent.fsin2-1.fna.fbcdn.net/v/t1.0-9/38707787_272052933524510_1358991226560315392_n.jpg?_nc_cat=106&_nc_oc=AQmqout0bTVTpwltp8PwS8dpESjKB6Jlii-t-9rAGdrzZdWpsXPvNURTpLe9h55k_Y9-BUQQxIe1Mls2YdClx1kN&_nc_ht=scontent.fsin2-1.fna&oh=4385a87d85b0e6471fd6b883774a0729&oe=5D7FCB92" alt="image"/>
+        </td>
+        <td width="75%">
+          <div class="font" style="color:white;">Alvin Heng Engineering and Building Services</div>
+        </td>
+      </tr>
+      </table>
+    <ul id="menu">
+      <div class="dropdown">
+        <button class="dropbtn">
+          <li>
+            <a href="index.html" target="_blank">Home&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+          </li>
+        </button>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">
+            <li>
+              <a href="collaborations.html" target="_blank">About Us</a>
+            </li>
+          </button>
+        <div class="dropdown-content">
+            <a href="awardsandachievement.html" target="_blank">Awards and Achievements</a>
+            <a href="collaborations.html" target="_blank">Corporate Accounts</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">
+            <li>
+              <a href="contact.html" target="_blank">Contact and Communication &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-address-book" aria-hidden="true"></i>
+              </a>
+            </li>
+          </button>
+        <div class="dropdown-content">
+          <a href="bookingform.html" target="_blank">Booking Form</a>
+          <a href="feedbackform.html" target="_blank">Feedback Form</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">
+            <li>
+              <a href="employment.html" target="_blank">Staff Directory&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-users" aria-hidden="true"></i>
+              </a>
+            </li>
+          </button>
+        <div class="dropdown-content">
+          <a href="career.html" target="_blank">Career Employment Form</a>
+          <a href="employment.html" target="_blank">Employee's Information</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+          <button class="dropbtn">
+            <li>
+              <a href="serviceprovided.html" target="_blank">Project References&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-folder" aria-hidden="true"></i></a>
+            </li>
+          </button>
+        <div class="dropdown-content">
+          <a href="serviceprovided.html" target="_blank">Images/Videos On the Companies Operation</a>
+        </div>
+      </div>
+    </ul>
+
+		<div class="container">
+			<img class="no" alt= "Contact Us" src="image/new.jfif"/>
+		</div>
+		<p style="text-align:center;font-family:Anton, sans-serif;font-style:italic;font-size:20x;font-weight:bold;">Indicates Mandatory Field*</p>
+
+		<form action="thankyoupageforfeedback.html" method="post">
+			<div class="row">
+				<div class="column">
+					<label for="sname">
+						<strong style="margin-left:10%;">Salutation*</strong>
+					</label>
+						<br/>
+							<select id="sname" name="sname">
+								<option>Mr</option>
+								<option>Mrs</option>
+								<option>Ms</option>
+								<option>Mdm</option>
+								<option>Dr</option>
+							</select>
+						<br/>
+						<br/>
+					<label for="fname">
+						<strong style="margin-left:10%;">First Name*</strong>
+					</label>
+						<br/>
+					<input type="text" id="fname" name="fname" placeholder="Benedict" required="required"/>
+						<br/>
+						<br/>
+					<label for="lname">
+						<strong style="margin-left:10%;">Last Name*</strong>
+					</label>
+						<br/>
+					<input type="text" id="lname" name="lname" placeholder="Cumberbatch" required="required"/>
+						<br/>
+						<br/>
+					<label for="txtemail">
+						<strong style="margin-left:10%;">Email Address*</strong>
+					</label>
+						<br/>
+					<input type="email" id="txtEmail" name="txtEmail" placeholder="johnabc@abc.com"/>
+						<br/>
+						<br/>
+					<label for="number">
+						<strong style="margin-left:10%;">Mobile Number*</strong>
+					</label>
+						<br/>
+					<input type="text" id="number" name="number" placeholder="12345678" required="required" maxlength="8"/>
+						<br/>
+						<br/>
+					<label for="onumber">
+						<strong style="margin-left:10%;">Office Number</strong>
+					</label>
+						<br/>
+					<input type="text" id="onumber" name="onumber" maxlength="8" placeholder="12345678"/>
+						<br/>
+						<br/>
+				</div>
+				<div class="column" style="border-left: 2px solid lightgrey;height:590px;">
+					<label for="nof">
+						<strong style="margin-left:10%;">Nature of Feedback*</strong>
+					</label>
+						<br/>
+							<select>
+								<option>General Enquiry and Billing</option>
+								<option>Career Positions</option>
+								<option>Technical Support</option>
+								<option>Compliments</option>
+								<option>Complaints</option>
+							</select>
+						<br/>
+						<br/>
+					<label for="feedback">
+						<strong style="margin-left:10%;">Feedback*</strong>
+					</label>
+						<br/>
+					<textarea rows="10" cols="40" required="required" placeholder="Comment here..."></textarea>
+						<br/>
+						<br/>
+					<strong style="margin-left:10%;">Attachments if have:</strong>
+						<br/>
+					<div class="upload">
+						<div class="field">
+							<div class="file is-right is-info">
+								<label class="file-label">
+									<span class="file-icon">
+										<i class="fa fa-upload" aria-hidden="true"></i>
+									</span>
+										<input class="file-input" type="file" name="resume"/>
+									<span class="file-cta">
+									</span>
+										<span class="file-name">
+										</span>
+								</label>
+							</div>
+						</div>
+					</div>
+						<br/>
+						<br/>
+					<input type="checkbox" required="required" style="margin-left:10%;"/>
+						You have read, understood and agree to be bound by the Alvin Heng
+						<div style="margin-left:13%;">
+						Engineering and Building Services' Policy as it may be amended from time
+						to time and agree that we may collect, use and disclose your personal data as provided in this form for the purposes set out in the Alvin
+						Heng Engineering and Building Services' Protection Policy.Where you are providing us with personal data of another individual, you
+						warrant that you are authorised to consent to the Alvin Heng Engineering and Building Services' Data Protection Policy and
+						provide us with such personal data on his/her behalf.
+					</div>
+						<br/>
+				</div>
+						<br/>
+						<br/>
+					<input type="submit" value="Submit"/>
+					<input type="reset" value="Reset"/>
+			</div>
+        </form>
+	<!--Page Wrapper-->
+			<div class="page-wrapper">
+			</div>
+	<!--//Page Wrapper-->
+  <!--footer-->
+    <div class="footer">
+      <div class="footer-content">
+
+        <div class="footer-section about">
+          <h2>Alvin Heng Engineering and Building Services</h2>
+            <div class="contact">
+              <span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +65 96587048</span>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;alvinhengengineering@gmail.com</span>
+            </div>
+          <h2>Connect With Us:</h2>
+            <div class="s-m">
+              <a href="https://www.facebook.com/pages/category/Product-Service/Alvin-Heng-Engineering-271800410216429/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://web.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+        </div>
+            <div class="footer-section links">
+              <h2> Quick Links</h2>
+                <ul>
+                  <a href="index.html" target="_blank">
+                    <li>Home</li>
+                  </a>
+                  <a href="collaborations.html" target="_blank">
+                    <li>About Us</li>
+                  </a>
+                  <a href="awardsandachievement.html" target="_blank">
+                    <li>Awards and Achievements</li>
+                  </a>
+                  <a href="employment.html" target="_blank">
+                    <li>Staff Directory</li>
+                  </a>
+                  <a href="findoutmore.html" target="_blank">
+                    <li>Project References</li>
+                  </a>
+                </ul>
+            </div>
+      </div>
+      <div class="footer-bottom">
+      &copy; Alvin Heng Engineering and Building Services
+      </div>
+    </div>
+
+  <!--//footer-->
+	</body>
+</html>
